@@ -1,0 +1,20 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://git.delta-wings.net/Avior/game-of-life.js",
+  "author": "Avior <florian.bouillon@delta-wings.net>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "webpack --progress --profile --colors --watch --mode='development'",
+    "build:prod": "webpack --progress --profile --colors --mode='production'",
+    "build:dev": "webpack --progress --profile --colors --mode='development'"
+  },
+  "dependencies": {
+    "ts-loader": "^6.1.2",
+    "typescript": "^3.6.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
